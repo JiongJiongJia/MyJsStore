@@ -3,6 +3,7 @@
  * wrapSelector:列表的wraper,用于插入分页条
  * apiPathName:api地址
  * isPagebar:是否显示分页条，默认true
+ * 调用示例：new Pager(".pageWrap").init();
  */
 function Pager(wrapSelector,apiPathName,isPagebar){
 			this.pageNo = 1,
